@@ -11,13 +11,13 @@ public class PalindromString {
 			revStr=ch+revStr;
 		}
 		//return revStr;
-		if(u==orig)
+		if(revStr==orig)
 		{
-			System.out.println("Palindrom");
+			System.out.println("The given String is Palindrom");
 		}
 		else
 		{
-			System.out.println("Not a palindrom");
+			System.out.println("The Given string is not palindrom Not a palindrom");
 		}
 	}
 
